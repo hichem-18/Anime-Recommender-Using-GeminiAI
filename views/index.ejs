@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <div>
+      <Head>
+        <title>Anime Recommender</title>
+        <link rel="icon" href="/anime.png" />
+      </Head>
+
+      <main class="main">
+        <h3>Anime Recommender</h3>
+        <form action="/" method="POST">
+          <input
+            type="text"
+            name="animeName"
+            placeholder="Enter an anime name"
+          />
+          <input type="submit" value="Similar Anime" />
+        </form>
+        <% if (locals.result) {%>
+        <div class="result"><%= result %></div>
+        <% } %>
+      </main>
+    </div>
+  </body>
+</html>
