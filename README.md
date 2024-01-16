@@ -4,7 +4,7 @@ Welcome to the Google Generative AI Anime Suggestions project! This application 
 
 ## Setup
 
-### Clone the repository to your local machine:
+- Clone the repository to your local machine:
 
 ```
 git clone https://github.com/hichem-18/Anime-Recommender-Using-GeminiAI.git
@@ -15,13 +15,13 @@ cd your-repo
 
 npm install
 
-### Create a .env file in the root directory and add your Google API key:
+- Create a .env file in the root directory and add your Google API key:
 
 ```
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-Get your API key by following the[Gemini API](https://ai.google.dev/tutorials/node_quickstart)
+Get your API key by following the [Gemini API](https://ai.google.dev/tutorials/node_quickstart)
 
 ## Usage
 
@@ -29,13 +29,13 @@ Get your API key by following the[Gemini API](https://ai.google.dev/tutorials/no
 nodemon index.js
 ```
 
-### The application will be accessible at http://localhost:3000.
+- The application will be accessible at http://localhost:3000.
 
-### Open your web browser and go to http://localhost:3000.
+- Open your web browser and go to http://localhost:3000.
 
-### Enter the name of an anime in the provided input field.
+- Enter the name of an anime in the provided input field.
 
-### Click the "Submit" button to receive suggestions for three anime titles similar to the input.
+- Click the "Submit" button to receive suggestions for three anime titles similar to the input.
 
 ## Troubleshooting
 
